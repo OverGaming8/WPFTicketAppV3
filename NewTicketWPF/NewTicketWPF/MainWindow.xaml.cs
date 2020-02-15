@@ -31,6 +31,7 @@ namespace NewTicketWPF
 
         private void Settings_Click(object sender, RoutedEventArgs e)
         {
+            
             objSettings = new Settings();
             objSettings.SetCreatingForm = this;
             IsEnabled = false;
